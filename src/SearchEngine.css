@@ -43,9 +43,10 @@ button:hover {
   border: none;
   color: whitesmoke;
   font-size: 22px;
-  position: relative;
-  left: 500px;
-  bottom: 40px;
+  position: fixed;
+  display:inline-block;
+  top:2%;
+  right:35%;
   transition: 200ms all ease-in-out;
 }
 h1 {
