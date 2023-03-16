@@ -1,0 +1,111 @@
+.city-date {
+  color: whitesmoke;
+  max-width: 100%;
+  height: 120px;
+}
+.search-bar {
+  position: relative;
+  text-align: center;
+  top: 4px;
+}
+.bar {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #182aa5;
+  color: whitesmoke;
+  height: 35px;
+  margin-bottom: 8px;
+  width: 300px;
+}
+.bar:focus {
+  border-radius: 4px;
+  outline: 1px solid rgba(245, 245, 245, 0.511);
+}
+::placeholder {
+  color: rgba(245, 245, 245, 0.7);
+}
+.searchButton {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  position: relative;
+  right: 36px;
+  transition: 200ms all ease-in-out;
+}
+button:hover {
+  color: rgb(187, 232, 255, 0.9);
+}
+.locationButton {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 22px;
+  position: relative;
+  left: 500px;
+  bottom: 40px;
+  transition: 200ms all ease-in-out;
+}
+h1 {
+  font-size: 32px;
+  line-height: 34px;
+  margin: 0;
+  text-transform: capitalize;
+  position: fixed;
+  top: 60px;
+}
+h2 {
+  font-size: 24px;
+  margin: 0;
+  position: relative;
+  bottom: 25px;
+}
+small {
+  font-size: 15px;
+}
+.current-wx {
+  text-align: center;
+}
+.bg-color {
+  background: linear-gradient(
+    111.5deg,
+    rgb(187, 232, 255, 0.9) 11.1%,
+    rgb(4, 78, 116, 0.9) 107.5%
+  );
+  border-radius: 0 0 40px 40px;
+  width: 100%;
+}
+.bg-color.loading {
+  visibility: hidden;
+}
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 5px 100px;
+
+  padding: 4px 20px;
+  text-transform: capitalize;
+}
+p {
+  margin: 0;
+  text-align: justify-center;
+}
+
+p .weather-icon {
+  width: 100px;
+  bottom: 15px;
+
+  position: relative;
+}
+p .wx-degree {
+  font-size: 50px;
+  line-height: 100px;
+}
+.degrees {
+  bottom: 30px;
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+}
