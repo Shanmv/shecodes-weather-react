@@ -11,7 +11,6 @@ export default function linkGithub() {
         <a
           href="https://github.com/Shanmv/shecodes-weather-react"
           target="_blank"
-          rel="norefferer"
           className="Github"
         >
           <FontAwesomeIcon icon={faGithub} />
